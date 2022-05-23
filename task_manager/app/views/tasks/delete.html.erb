@@ -1,0 +1,17 @@
+<%= link_to("Back to List", tasks_path, class: 'back-link') %>
+
+<div class="tasks delete">
+  <h2>Delete Task</h2>
+
+  <%= form_for(@task, method: 'delete') do |f| %>
+    <% # url: task_path(@task), method: 'delete' %>
+
+    <p>Are you sure you want to permanently delete this task?</p>
+    <p><%= @task.name %></p>
+
+    <div class="form-buttons">
+      <%= f.submit("Delete Task") %>
+    </div>
+
+  <% end %>
+</div>

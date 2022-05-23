@@ -1,0 +1,34 @@
+<%= link_to("Back to List", categories_path, class: 'back-link') %>
+
+<div class="categories show">
+  <h2>Show Category</h2>
+
+  <div class="actions">
+    <%= link_to('Edit', edit_category_path(@category)) %>
+    <%= link_to('Delete', delete_category_path(@category)) %>
+  </div>
+
+  <table summary="category detail view">
+    <tr>
+      <th>Name</th>
+      <td><%= @category.name %></td>
+    </tr>
+    <tr>
+      <th>Tasks</th>
+      <td>
+        <% @category.tasks.each do |task| %>
+          <%= task.name %><br />
+        <% end %>
+      </td>
+    </tr>
+    <tr>
+      <th>Created</th>
+      <td><%= @category.created_at %></td>
+    </tr>
+    <tr>
+      <th>Updated</th>
+      <td><%= @category.updated_at %></td>
+    </tr>
+  </table>
+
+</div>

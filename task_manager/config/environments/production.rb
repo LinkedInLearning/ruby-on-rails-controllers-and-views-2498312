@@ -50,6 +50,7 @@ Rails.application.configure do
 
   # Include generic and useful information about system operation, but avoid logging too much
   # information to avoid inadvertent exposure of personally identifiable information (PII).
+  # Levels: :debug, :info, :warn, :error, :fatal
   config.log_level = :info
 
   # Prepend all log lines with the following tags.

@@ -4,6 +4,27 @@ class AccessController < ApplicationController
 
   # display menu
   def menu
+    # Examples of render options:
+    #
+    # render('menu')
+    #
+    # render(plain: "Just render text.")
+    #
+    # render(html: "<strong>HTML text</strong>")
+    #
+    # render(json: Task.first)
+    #
+    # render(xml: ['dog', 'cat', 'mouse'])
+    #
+    # render(plain: 'OK', status: 200)
+    #
+    # path_to_404 = Rails.root.join('public', '404.html')
+    # render(file: path_to_404)
+    #
+    # send_file(path_to_404)
+    #
+    # string = render_to_string(file: path_to_404)
+    # logger.debug(string)
   end
 
   # display login form

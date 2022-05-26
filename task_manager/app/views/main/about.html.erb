@@ -1,3 +1,5 @@
+<% content_for(:title, 'About') %>
+
 <%= link_to('Back to Menu', menu_path, class: 'back-link') %><br />
 
 <div class="main about">
@@ -8,3 +10,7 @@
   <p>Created by <%= @created_by %></p>
 
 </div>
+
+<% content_for(:script) do %>
+  <script>alert('Welcome!');</script>
+<% end %>

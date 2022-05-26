@@ -13,7 +13,9 @@
 
   <body>
     <header>
-      Task Manager
+      <%= link_to(menu_path) do %>
+        <%= image_tag('task_manager_logo.png', height: 25, alt: 'Task Manager Logo') %>
+      <% end %>
       <% if session[:user_id].present? %>
         <span>
           User: <%= @username %> | <%= button_to('Logout', logout_path, {method: :delete}) %>

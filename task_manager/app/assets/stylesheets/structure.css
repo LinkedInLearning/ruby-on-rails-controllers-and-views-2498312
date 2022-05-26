@@ -1,0 +1,25 @@
+header {
+  height: 1em;
+  padding: 1em;
+  margin-bottom: 1em;
+	background: #0099CC;
+}
+
+header span {
+  float: right;
+}
+
+header span .button_to {
+	display: inline;
+}
+
+div#content {
+  min-height: 400px;
+}
+
+footer {
+  height: 1em;
+  padding: 1em;
+  margin-top: 1em;
+	background: #0099CC;
+}

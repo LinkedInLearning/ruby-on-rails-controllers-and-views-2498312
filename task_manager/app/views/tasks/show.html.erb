@@ -23,7 +23,7 @@
     </tr>
     <tr>
       <th>Description</th>
-      <td><%= @task.description %></td>
+      <td><%= simple_format(word_wrap(@task.description, line_width: 40)) %></td>
     </tr>
     <tr>
       <th>Category</th>

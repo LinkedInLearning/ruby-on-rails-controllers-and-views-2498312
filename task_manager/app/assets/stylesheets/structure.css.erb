@@ -37,3 +37,18 @@ footer {
   font-size: 1.25em;
   margin: 0;
 }
+
+span.status {
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0.25em;
+	padding: 0;
+  background: no-repeat center/100%;
+}
+span.status.true {
+	background-image: url('<%= image_path('solid_square_check.png') %>');
+}
+span.status.false {
+	background-image: url('<%= image_path('solid_square_x.png') %>');
+}

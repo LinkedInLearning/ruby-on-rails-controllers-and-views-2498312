@@ -35,11 +35,11 @@
     </tr>
     <tr>
       <th>Created</th>
-      <td><%= @task.created_at %></td>
+      <td><%= @task.created_at.to_fs(:long) %></td>
     </tr>
     <tr>
       <th>Updated</th>
-      <td><%= @task.updated_at %></td>
+      <td><%= @task.updated_at.to_fs(:long) %></td>
     </tr>
   </table>
 

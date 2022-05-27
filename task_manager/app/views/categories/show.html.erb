@@ -23,11 +23,11 @@
     </tr>
     <tr>
       <th>Created</th>
-      <td><%= @category.created_at %></td>
+      <td><%= @category.created_at.to_fs(:long) %></td>
     </tr>
     <tr>
       <th>Updated</th>
-      <td><%= @category.updated_at %></td>
+      <td><%= @category.updated_at.to_fs(:long) %></td>
     </tr>
   </table>
 

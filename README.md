@@ -1,7 +1,10 @@
 # Ruby on Rails Controllers and Views
 This is the repository for the LinkedIn Learning course Ruby on Rails Controllers and Views. The full course is available from [LinkedIn Learning][lil-course-url].
 
-_See the readme file in the main branch for updated instructions and information._
+![Ruby on Rails Controllers and Views][lil-thumbnail-url] 
+
+Want to build smarter controllers and better-looking web pages with Ruby on Rails? In this foundational course, instructor Kevin Skoglund teaches developers how to better implement controllers and views in Ruby on Rails, and covers the fundamentals and best practices around these common programming concepts. Learn how to leverage the most useful features of controllers, including maintaining state with cookie and session data, displaying messages, organizing code, and using filters for routine tasks. Next, discover how to render different types of data, how to use view layouts, and how to incorporate assets such as images, style sheets, and JavaScript. Finally, find out how to work more efficiently with Ruby helper methods, which make common tasks like formatting text and numbers, date and time calculations, and outputting form fields easier.
+
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
 
@@ -34,8 +37,17 @@ To resolve this issue:
 	- rails db:create
 	- rails lil:import
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+### Instructor
+
+Kevin Skoglund 
+                            
+
+
+                            
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/kevin-skoglund).
+
+[lil-course-url]: https://www.linkedin.com/learning/ruby-on-rails-controllers-and-views
+[lil-thumbnail-url]: https://cdn.lynda.com/course/2498312/2498312-1657743096167-16x9.jpg
 
